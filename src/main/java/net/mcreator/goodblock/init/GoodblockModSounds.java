@@ -22,6 +22,7 @@ public class GoodblockModSounds {
 		REGISTRY.put(new ResourceLocation("goodblock", "gnusmas_gm_soundfont_2.00"), new SoundEvent(new ResourceLocation("goodblock", "gnusmas_gm_soundfont_2.00")));
 		REGISTRY.put(new ResourceLocation("goodblock", "anit_furry_music"), new SoundEvent(new ResourceLocation("goodblock", "anit_furry_music")));
 		REGISTRY.put(new ResourceLocation("goodblock", "item.armor.equip_netherite"), new SoundEvent(new ResourceLocation("goodblock", "item.armor.equip_netherite")));
+		REGISTRY.put(new ResourceLocation("goodblock", "ink_sans"), new SoundEvent(new ResourceLocation("goodblock", "ink_sans")));
 	}
 
 	@SubscribeEvent

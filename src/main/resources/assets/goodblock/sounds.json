@@ -38,5 +38,15 @@
         "stream": false
       }
     ]
+  },
+  "ink_sans": {
+    "category": "music",
+    "subtitle": "subtitles.ink_sans",
+    "sounds": [
+      {
+        "name": "goodblock:rgux5-tx8dz",
+        "stream": true
+      }
+    ]
   }
 }

@@ -4,9 +4,9 @@ license="MIT License"
 
 [[mods]]
 modId="goodblock"
-version="0.5.4"
+version="0.6.0"
 displayName="goodblock"
-credits="你好ABO，好好的时间2"
+credits="好好的时间2 and You"
 displayURL="https://github.com/hhdsjgit/goodblock"
 logoFile="logo.png"
 authors="好好的时间2"

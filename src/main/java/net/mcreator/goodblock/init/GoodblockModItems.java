@@ -24,6 +24,7 @@ import net.mcreator.goodblock.item.PainiteaxeItem;
 import net.mcreator.goodblock.item.PainiteArmorItem;
 import net.mcreator.goodblock.item.NotlistenthisItem;
 import net.mcreator.goodblock.item.NitricacidItem;
+import net.mcreator.goodblock.item.Inksans4Item;
 import net.mcreator.goodblock.item.ImpureuraniumingotItem;
 import net.mcreator.goodblock.item.ImpureuraniumItem;
 import net.mcreator.goodblock.item.FluteItem;
@@ -68,6 +69,7 @@ public class GoodblockModItems {
 	public static final RegistryObject<Item> PALE_WOOD_BUTTON = block(GoodblockModBlocks.PALE_WOOD_BUTTON, GoodblockModTabs.TAB_WORLDBLOCK);
 	public static final RegistryObject<Item> PALETREESPA_1 = block(GoodblockModBlocks.PALETREESPA_1, null);
 	public static final RegistryObject<Item> PALETREE = REGISTRY.register("paletree", () -> new PaletreeItem());
+	public static final RegistryObject<Item> INKSANS_4 = REGISTRY.register("inksans_4", () -> new Inksans4Item());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

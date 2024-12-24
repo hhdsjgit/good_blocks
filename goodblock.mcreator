@@ -1266,6 +1266,119 @@
           "src/main/resources/data/goodblock/recipes/painitearmorchanged_4.json"
         ]
       }
+    },
+    {
+      "name": "FINDGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "findgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodblock/network/FINDGUIButtonMessage.java",
+          "src/main/java/net/mcreator/goodblock/world/inventory/FINDGUIMenu.java",
+          "src/main/java/net/mcreator/goodblock/client/gui/FINDGUIScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "USEMOD",
+      "type": "achievement",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "usemod",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/goodblock/advancements/usemod.json"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "LOOKGUI",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lookgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodblock/procedures/LOOKGUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "Find",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "find",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodblock/command/FindCommand.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "Inksans4",
+      "type": "musicdisc",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inksans_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodblock/item/Inksans4Item.java",
+          "src/main/resources/assets/goodblock/models/item/inksans_4.json"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "DIE",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "die",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goodblock/procedures/DIEProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GUI"
     }
   ],
   "variable_elements": [],
@@ -1301,6 +1414,14 @@
       ],
       "category": "neutral",
       "subtitle": "穿上盔甲"
+    },
+    {
+      "name": "ink_sans",
+      "files": [
+        "rgux5-tx8dz"
+      ],
+      "category": "music",
+      "subtitle": "A music"
     }
   ],
   "language_map": {
@@ -1319,17 +1440,21 @@
       "item.goodblock.painite_armor_chestplate": "Painite Armor 胸甲",
       "block.goodblock.nitreblock": "Nitreblock",
       "item.goodblock.painite_armor_boots": "Painite Armor 靴子",
+      "item.goodblock.inksans_4": "Inksans 4",
       "subtitles.gnusmas_gm_soundfont_2.00": "gnusmas_gm_soundfont",
       "block.goodblock.pale_wood_log": "Pale_wood Log",
+      "gui.goodblock.findgui.button_dian_wo": "Here",
       "effect.goodblock.radiation": "radiation",
       "block.goodblock.pale_wood_fence": "Pale_wood Fence",
       "advancements.painite_armornewold.descr": "painiteArmor???",
       "block.goodblock.sulphurblock": "Sulphurblock",
       "item.goodblock.painitehoe": "Painitehoe",
+      "gui.goodblock.findgui.GUI_A": "GUI in the upper left corner",
       "advancements.obtainnitrate.title": "Obtainnitrate",
       "item.goodblock.anitfrrymusic": "Flute",
       "block.goodblock.pale_wood_fence_gate": "Pale_wood Fence Gate",
       "advancements.obtainsulfur.descr": "Isn\u0027t this gold? ",
+      "advancements.usemod.descr": "You found this",
       "item.goodblock.painite_armor_leggings": "Painite Armor 护腿",
       "advancements.painite_armornewold.title": "Painite Armornewold",
       "block.goodblock.uraniummineral": "Uraniummineral",
@@ -1337,11 +1462,13 @@
       "block.goodblock.paletreespa_1": "Paletreespa 1",
       "item.goodblock.notlistenthis.desc": "This is a total loss of music. ",
       "advancements.obtainsulfur.title": "Obtainsulfur",
+      "advancements.usemod.title": "oh you find this!!!",
       "item.goodblock.sulphur": "Sulphur",
       "block.goodblock.pale_wood_pressure_plate": "Pale_wood Pressure Plate",
       "item.goodblock.paletree": "Paletree",
       "item.goodblock.anitfrrymusic.desc": "gnusmas_gm_soundfont_2.00",
       "item.goodblock.painite_armor_helmet": "Painite Armor 头盔",
+      "gui.goodblock.findgui.label_goodblock_06_beta": "GOODBLOCK 0.6 - BETA",
       "item.goodblock.impureuraniumingot": "Impureuraniumingot",
       "subtitles.anit_furry_music": "auit furry music!",
       "subtitles.item.armor.equip_netherite": "穿上盔甲",
@@ -1352,7 +1479,10 @@
       "block.goodblock.pale_wood_wood": "Pale_wood Wood",
       "block.goodblock.blackblock": "Blackblock",
       "block.goodblock.testgbk": "TESTGBK",
+      "gui.goodblock.findgui.label_make_hhdsj2": "make : hhdsj2",
+      "item.goodblock.inksans_4.desc": "ink Sans",
       "advancements.obtainnitrate.descr": "White powder",
+      "subtitles.ink_sans": "A music",
       "fluid.goodblock.testgbk": "TESTGBK",
       "item.goodblock.flute.desc": "gnusmas_gm_soundfont_2.00",
       "item.goodblock.painitesword": "Painitesword",
@@ -1376,17 +1506,21 @@
       "item.goodblock.painite_armor_chestplate": "Painite Chestplate",
       "block.goodblock.nitreblock": "硝矿石",
       "item.goodblock.painite_armor_boots": "Painite Boots",
+      "item.goodblock.inksans_4": "Inksans 4",
       "subtitles.gnusmas_gm_soundfont_2.00": "gnusmas_gm_soundfont",
       "block.goodblock.pale_wood_log": "苍白原木",
+      "gui.goodblock.findgui.button_dian_wo": "HERE",
       "effect.goodblock.radiation": "辐射",
       "block.goodblock.pale_wood_fence": "苍白木栅栏",
       "advancements.painite_armornewold.descr": "painiteArmor???",
       "block.goodblock.sulphurblock": "硫磺矿石",
       "item.goodblock.painitehoe": "Painitehoe",
+      "gui.goodblock.findgui.GUI_A": "GUI in the upper left corner",
       "advancements.obtainnitrate.title": "硝!",
       "item.goodblock.anitfrrymusic": "Flute",
       "block.goodblock.pale_wood_fence_gate": "Pale_wood Fence Gate",
       "advancements.obtainsulfur.descr": "这不是金子吗???",
+      "advancements.usemod.descr": "You found this",
       "item.goodblock.painite_armor_leggings": "Painite Leggings",
       "advancements.painite_armornewold.title": "Painite Armornewold",
       "block.goodblock.uraniummineral": "铀矿石",
@@ -1394,11 +1528,13 @@
       "block.goodblock.paletreespa_1": "Paletreespa 1",
       "item.goodblock.notlistenthis.desc": "不要听这个",
       "advancements.obtainsulfur.title": "硫磺",
+      "advancements.usemod.title": "oh you find this!!!",
       "item.goodblock.sulphur": "硫磺",
       "block.goodblock.pale_wood_pressure_plate": "Pale_wood Pressure Plate",
       "item.goodblock.paletree": "Paletree",
       "item.goodblock.anitfrrymusic.desc": "gnusmas_gm_soundfont_2.00",
       "item.goodblock.painite_armor_helmet": "Painite Helmet",
+      "gui.goodblock.findgui.label_goodblock_06_beta": "GOODBLOCK 0.6 - BETA",
       "item.goodblock.impureuraniumingot": "不纯的铀锭",
       "subtitles.anit_furry_music": "auit furry music!",
       "subtitles.item.armor.equip_netherite": "穿上盔甲",
@@ -1409,7 +1545,10 @@
       "block.goodblock.pale_wood_wood": "Pale_wood Wood",
       "block.goodblock.blackblock": "这是个测试方块",
       "block.goodblock.testgbk": "测试",
+      "gui.goodblock.findgui.label_make_hhdsj2": "make : hhdsj2",
+      "item.goodblock.inksans_4.desc": "ink Sans",
       "advancements.obtainnitrate.descr": "白色的粉末",
+      "subtitles.ink_sans": "A music",
       "fluid.goodblock.testgbk": "测试液体",
       "item.goodblock.flute.desc": "gnusmas_gm_soundfont_2.00",
       "item.goodblock.painitesword": "Painitesword",
@@ -1429,13 +1568,17 @@
       {
         "name": "plae_tree",
         "children": []
+      },
+      {
+        "name": "GUI",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "goodblock",
     "modName": "goodblock",
-    "version": "0.5.4",
+    "version": "0.6.0",
     "description": "Some of the content additions to Changed addon plus",
     "author": "好好的时间2",
     "websiteURL": "https://github.com/hhdsjgit/goodblock",
@@ -1448,7 +1591,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
-    "credits": "你好ABO，好好的时间2",
+    "credits": "好好的时间2 and You",
     "modElementsPackage": "net.mcreator.goodblock",
     "lockBaseModFiles": false
   },
