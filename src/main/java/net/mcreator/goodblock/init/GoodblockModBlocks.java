@@ -56,6 +56,7 @@ public class GoodblockModBlocks {
 	public static final RegistryObject<Block> PALE_WOOD_PRESSURE_PLATE = REGISTRY.register("pale_wood_pressure_plate", () -> new Pale_woodPressurePlateBlock());
 	public static final RegistryObject<Block> PALE_WOOD_BUTTON = REGISTRY.register("pale_wood_button", () -> new Pale_woodButtonBlock());
 	public static final RegistryObject<Block> PALETREESPA_1 = REGISTRY.register("paletreespa_1", () -> new Paletreespa1Block());
+	public static final RegistryObject<Block> BLACK_STRIPES_BLOCK = REGISTRY.register("black_stripes_block", () -> new BlackStripesBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

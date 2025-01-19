@@ -1379,6 +1379,23 @@
         ]
       },
       "path": "~/GUI"
+    },
+    {
+      "name": "BlackStripesBlock",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_stripes_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/goodblock/models/item/black_stripes_block.json",
+          "src/main/resources/assets/goodblock/models/block/black_stripes_block.json",
+          "src/main/java/net/mcreator/goodblock/block/BlackStripesBlockBlock.java",
+          "src/main/resources/assets/goodblock/blockstates/black_stripes_block.json"
+        ]
+      },
+      "path": "~/AI"
     }
   ],
   "variable_elements": [],
@@ -1432,12 +1449,13 @@
       "item.goodblock.impureuranium": "Impureuranium",
       "itemGroup.tabworldblock": "Worldblock",
       "advancements.usethismod.descr": "Thank you for using this mod!!!",
+      "block.goodblock.black_stripes_block": "Black Stripes Block",
       "item.goodblock.painitemanuscript": "Painitemanuscript",
-      "item.goodblock.notlistenthis": "Notlistenthis",
       "item.goodblock.testgbk_bucket": "TESTGBK Bucket",
+      "item.goodblock.notlistenthis": "Notlistenthis",
       "advancements.usethismod.title": "USETHISMOD",
-      "block.goodblock.blueblock": "tieblock",
       "item.goodblock.painite_armor_chestplate": "Painite Armor 胸甲",
+      "block.goodblock.blueblock": "tieblock",
       "block.goodblock.nitreblock": "Nitreblock",
       "item.goodblock.painite_armor_boots": "Painite Armor 靴子",
       "item.goodblock.inksans_4": "Inksans 4",
@@ -1498,12 +1516,13 @@
       "item.goodblock.impureuranium": "不纯的铀粉",
       "itemGroup.tabworldblock": "世界方块",
       "advancements.usethismod.descr": "谢谢你使用这个MOD!!!",
+      "block.goodblock.black_stripes_block": "Black Stripes Block",
       "item.goodblock.painitemanuscript": "Painitemanuscript",
-      "item.goodblock.testgbk_bucket": "测试液体桶",
       "item.goodblock.notlistenthis": "你不要听这个",
+      "item.goodblock.testgbk_bucket": "测试液体桶",
       "advancements.usethismod.title": "USETHISMOD",
-      "block.goodblock.blueblock": "铁网",
       "item.goodblock.painite_armor_chestplate": "Painite Chestplate",
+      "block.goodblock.blueblock": "铁网",
       "block.goodblock.nitreblock": "硝矿石",
       "item.goodblock.painite_armor_boots": "Painite Boots",
       "item.goodblock.inksans_4": "Inksans 4",
@@ -1571,6 +1590,10 @@
       },
       {
         "name": "GUI",
+        "children": []
+      },
+      {
+        "name": "AI",
         "children": []
       }
     ]
